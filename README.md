@@ -9,3 +9,10 @@ a shell script which compares the schema of 2 mysql databases, and generates a s
 dbfrom
 dbto
 dbname
+
+version2已经上传，支持灵活的两个数据的配置，名字可以不相同。
+修改这部分参数即可：
+dbfrom="-utom -pmot -h127.0.0.1"
+dbnamefrom="tomdb"
+dbto="-ubob -paaa -h127.2.0.2"
+dbnameto="bobdb"
